@@ -140,8 +140,7 @@ while not all_correct:  # Train until converged
 # might get a different result than our example produces given that the weights are
 # initialized randomly. Similarly, there is no guarantee that the learning algorithm
 # for a multilevel network will ever converge, and there are multiple reasons for
-# this. It could be that the network itself simply cannot learn the function, as we saw
-# in Chapter 2 when trying to learn XOR with a single perceptron. Another reason
+# this. It could be that the network itself simply cannot learn the function, Another reason
 # convergence might fail is if the parameters and initial values for the learning
 # algorithm are initialized in a way that somehow prevents the network from
 # learning. That is, you might need to tweak the learning rate and initial weights to
